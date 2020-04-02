@@ -1,0 +1,34 @@
+    1  sudo apt install -y bind9 bind9utils bind9-doc dnsutils -q                                                                                                               2  ifconfig                                                                                                                                                                 3  echo 192.168.0.142 > myip                                                                                                                                                4  cat myip                                                                                                                                                                 5  sudo nano /etc/bind/named.conf.local                                                                                                                                     6  sudo cp /etc/bind/db.local /etc/bind/forward.magic.local.db                                                                                                              7  sudo nano /etc/bind/forward.magic.local.db
+    8  sudo nano /etc/bind/named.conf.local
+    9  ifconfig
+   10  ifoconfig
+   11  ifconfig
+   12  sudo nano /etc/bind/named.conf.local
+   13  ifconfig
+   14  logout
+   15  sudo nano /etc/bind/forward.magic.local.db
+   16  nano test
+   17  rm test
+   18  sudo nano /etc/bind/forward.magic.local.db
+   19  cat myip
+   20  sudo nano /etc/bind/forward.magic.local.db
+   21  sudo cp /etc/bind/db.127 /etc/bind/reverse.magic.local.db
+   22  sudo nano /etc/bind/reverse.magic.local.db
+   23  sudo named-checkconf
+   24  sudo named-checkzone magic.local /etc/bind/forward.magic.local.db
+   25  named-checkzone 0.168.192.in-addr.arpa /etc/bind/reverse.magic.local.db
+   26  named-checkzone 0.168.192.in-addr.arpa /etc/bind/reverse.magic2.local.db
+   27  named-checkzone 0.168.192.in-addr.arpa /etc/bind/reverse.magic.local.db
+   28  sudo systemctl restart bind9
+   29  sudo systemctl enable bind9
+   30  sudo systemctl status bind9
+   31  sudo systemctl enable bind9
+   32  sudo systemctl status bind9
+   33  ifconfig
+   34  ls
+   35  sudo nano /etc/bind/named.conf.local
+   36  sudo vi /etc/bind/named.conf.local
+   37  sudo nano /etc/bind/named.conf.local
+   38  sudo nano /etc/bind/forward.magic.local.db
+   39  sudo nano /etc/bind/reverse.magic.local.db
+   40  history
