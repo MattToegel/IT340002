@@ -1,0 +1,20 @@
+   1  sudo apt-get install postfix mailutils -y
+    2  sudo nano /etc/postfix/sasl_passwd
+    3  sudo chmod 600 /etc/postfix/sasl_passwd
+    4  sudo nano /etc/postfix/sasl_passwd
+    5  sudo nano /etc/postfix/main.cf
+    6  sudo postmap /etc/postfix/sasl_passwd
+    7  sudo nano /etc/aliases
+    8  sudo newaliases
+    9  sudo ufw allow 587
+   10  sudo ufw status
+   11  sudo systemctl restart postfix
+   12  sudo systemctl status postfix
+   13  echo "Postfix email" | mail -s "Email from `hostname`" root
+   14  echo "Postfix email" | mail -s "Email from `hostname` from IT340" root
+   15  history > test.txt
+   16  nano test.xt
+   17  nano test.txt
+   18  history
+   19  history > text.txt
+   20  history
